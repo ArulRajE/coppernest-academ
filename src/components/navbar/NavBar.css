@@ -28,7 +28,7 @@
 }
 @media only screen and (min-width: 991px){
     .navbar-right .dropdown-menu[data-bs-popper] {
-        position: absolute; inset: 0px auto auto 0px; transform: translate(193px, 0px);
+        position: absolute; inset: 0px auto auto 0px; transform: translate(175px, 0px);
     }
 }
 @media only screen and (max-width: 991px){
