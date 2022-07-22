@@ -1,3 +1,27 @@
 .text-justify {
     text-align: justify
 }
+.bg-gray {
+    background-color: #232323;
+    color: #a1a1a1;
+}
+
+.footer h4 {
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer-nav li svg {
+    padding-right: 10px;
+}
+
+.footer-nav li {
+    padding-bottom: 1rem;
+}

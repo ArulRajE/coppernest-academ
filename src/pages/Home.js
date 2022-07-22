@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../components/Footer'
 import { HeroSlider } from '../components/HeroSlider/HeroSlider'
 import { NavBar } from '../components/navbar/NavBar'
 import { About } from './About'
@@ -14,6 +15,7 @@ export const Home = () => {
       <About />
       <Courses />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
