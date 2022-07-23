@@ -3,11 +3,13 @@ import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap'
 import logo from '../../assets/images/logo.png'
 import './NavBar.css'
 import { scroller } from 'react-scroll/modules';
+import { RegisterModel } from '../RegisterModel';
 
 export const NavBar = () => {
     const [showAbout, setShowAbout] = useState(false);
     const [showCourses, setShowCourses] = useState(false);
     const [showMI, setShowMI] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     const scroll = props => scroller.scrollTo(props.menu, {
         smooth: true,
@@ -62,6 +64,8 @@ export const NavBar = () => {
                             <Nav.Link onClick={() => handleClick({ menu: 'blogs', position: -650 })}>Blog</Nav.Link>
                             <Nav.Link onClick={() => handleClick({ menu: 'clients', position: -650 })}>Clients</Nav.Link>
                             <Nav.Link onClick={() => handleClick({ menu: 'contactUs', position: -350 })}>Contact Us</Nav.Link>
+                            <Nav.Link onClick={() => setModalShow(true)}>Register</Nav.Link>
+                            <RegisterModel show={modalShow} onHide={() => setModalShow(false)}/>
                             {/* <Link to="bi" smooth={true} duration={500}>
                                 <NavDropdown.Item href="bi">Business Intelligence</NavDropdown.Item>
                             </Link> */}
