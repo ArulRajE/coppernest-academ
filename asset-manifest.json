@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coppernest-academ/static/css/main.044d2105.css",
-    "main.js": "/coppernest-academ/static/js/main.a7947bdc.js",
+    "main.js": "/coppernest-academ/static/js/main.687229b7.js",
     "static/media/vision.mp4": "/coppernest-academ/static/media/vision.711a890f3efd5be08032.mp4",
     "static/media/banner4.png": "/coppernest-academ/static/media/banner4.ff1eb7ff18ecfeb0b709.png",
     "static/media/banner3.png": "/coppernest-academ/static/media/banner3.defe9762882463e41f13.png",
@@ -12,10 +12,10 @@
     "static/media/thumbnail.jpg": "/coppernest-academ/static/media/thumbnail.7d27bef1e1f79f635a6f.jpg",
     "index.html": "/coppernest-academ/index.html",
     "main.044d2105.css.map": "/coppernest-academ/static/css/main.044d2105.css.map",
-    "main.a7947bdc.js.map": "/coppernest-academ/static/js/main.a7947bdc.js.map"
+    "main.687229b7.js.map": "/coppernest-academ/static/js/main.687229b7.js.map"
   },
   "entrypoints": [
     "static/css/main.044d2105.css",
-    "static/js/main.a7947bdc.js"
+    "static/js/main.687229b7.js"
   ]
 }
