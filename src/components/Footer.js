@@ -18,7 +18,6 @@ export const Footer = () => {
                                 <li><FaAngleRight /><Link to='blogs' smooth={true} duration={100} offset={-145}>Blogs</Link></li>
                                 <li><FaAngleRight /><Link to='contactUs' smooth={true} duration={100} offset={-145}>Contact Us</Link></li>
                             </ul>
-
                         </Col>
                         <Col xs={12} sm={6} md={4}>
                             <h4>Get In Touch</h4>
